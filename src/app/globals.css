@@ -1,0 +1,220 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar Styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: hsl(var(--muted) / 0.3);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.3);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.5);
+}
+
+/* Firefox scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--primary) / 0.3) hsl(var(--muted) / 0.3);
+}
+
+@layer base {
+  :root {
+    --background: 165 13% 95%; /* #F0F4F3 Light Gray */
+    --foreground: 177 10% 25%; /* Dark Tealish Gray for text */
+    --card: 165 13% 100%; /* White cards */
+    --card-foreground: 177 10% 25%;
+    --popover: 165 13% 100%;
+    --popover-foreground: 177 10% 25%;
+    --primary: 198 100% 42%; /* #009AD7 Trvalr Logo Blue */
+    --primary-foreground: 0 0% 100%; /* White text on Primary */
+    --secondary: 177 20% 88%; /* Lighter teal/gray for secondary elements */
+    --secondary-foreground: 177 39% 30%; /* Darker teal for text on secondary */
+    --muted: 177 20% 92%; /* Muted teal/gray */
+    --muted-foreground: 177 15% 50%; /* Muted text */
+    --accent: 42 73% 60%; /* #E5B84B Warm Gold */
+    --accent-foreground: 30 50% 15%; /* Dark Brown/Black text on Gold */
+    --destructive: 0 84.2% 60.2%; /* Standard Red */
+    --destructive-foreground: 0 0% 98%;
+    --border: 177 20% 80%; /* Tealish Gray border */
+    --input: 177 20% 80%; /* Tealish Gray input background */
+    --ring: 198 100% 42%; /* #009AD7 for focus rings */
+    --radius: 0.5rem;
+
+    --chart-1: 198 100% 42%; /* #009AD7 Trvalr Logo Blue */
+    --chart-2: 42 73% 60%;
+    --chart-3: 177 20% 60%;
+    --chart-4: 42 50% 70%;
+    --chart-5: 177 10% 50%;
+
+    --sidebar-background: 165 15% 92%;
+    --sidebar-foreground: 177 10% 25%;
+    --sidebar-primary: 198 100% 42%; /* #009AD7 Trvalr Logo Blue */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 42 73% 60%;
+    --sidebar-accent-foreground: 30 50% 15%;
+    --sidebar-border: 177 20% 80%;
+    --sidebar-ring: 198 100% 42%; /* #009AD7 Trvalr Logo Blue */
+  }
+
+  .dark {
+    --background: 222 20% 8%; /* #111418 - Very dark blue-gray */
+    --foreground: 210 40% 98%; /* #f8fafc - Cool white */
+    --card: 222 20% 12%; /* #1a1f26 - Dark blue-gray cards */
+    --card-foreground: 210 40% 98%; /* #f8fafc */
+    --popover: 222 20% 10%; /* #141920 */
+    --popover-foreground: 210 40% 98%; /* #f8fafc */
+    --primary: 198 100% 50%; /* #009AD7 - Your brand blue */
+    --primary-foreground: 0 0% 100%; /* White text on primary */
+    --secondary: 217 20% 20%; /* #2d3748 - Muted blue-gray */
+    --secondary-foreground: 210 40% 98%; /* #f8fafc */
+    --muted: 217 20% 18%; /* #262d3a */
+    --muted-foreground: 215 20% 65%; /* #8f9bb3 - Softer text */
+    --accent: 199 89% 25%; /* #054b68 - Darker blue accent */
+    --accent-foreground: 210 40% 98%; /* #f8fafc */
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 217 20% 20%; /* #2d3748 */
+    --input: 217 20% 22%; /* #313948 */
+    --ring: 198 100% 50%; /* #009AD7 */
+
+    --chart-1: 198 100% 50%; /* #009AD7 */
+    --chart-2: 199 89% 35%; /* Lighter blue accent */
+    --chart-3: 217 20% 60%; /* Blue-gray */
+    --chart-4: 210 30% 70%; /* Light blue-gray */
+    --chart-5: 215 20% 50%; /* Mid blue-gray */
+
+    --sidebar-background: 222 20% 10%; /* #141920 */
+    --sidebar-foreground: 210 40% 98%; /* #f8fafc */
+    --sidebar-primary: 198 100% 50%; /* #009AD7 */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 199 89% 25%; /* #054b68 */
+    --sidebar-accent-foreground: 210 40% 98%; /* #f8fafc */
+    --sidebar-border: 217 20% 20%; /* #2d3748 */
+    --sidebar-ring: 198 100% 50%; /* #009AD7 */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply overflow-x-hidden;
+  }
+  body {
+    @apply bg-background text-foreground overflow-x-hidden w-full;
+  }
+}
+
+/* Custom utility for scrollbar hiding */
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  /* Custom scrollbar styling */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--border)) transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--border));
+    border-radius: 3px;
+  }
+  
+  .scrollbar-thin:hover::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--muted-foreground) / 0.2);
+  }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fade-up 0.6s ease-out forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* For Split Flap Display */
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  /* For custom animated buttons */
+  .animated-button {
+    @apply relative overflow-hidden h-9 px-4 py-2 rounded-full bg-[#3d3a4e] text-white border-none cursor-pointer;
+  }
+
+  .animated-button::before {
+    content: "";
+    @apply absolute top-0 left-0 w-full h-full rounded-full transition-transform duration-500 ease-in-out;
+    background: linear-gradient(82.3deg, rgba(150, 93, 233, 1) 10.8%, rgba(99, 88, 238, 1) 94.3%);
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+  }
+
+  .animated-button:hover::before {
+    transform: scaleX(1);
+  }
+
+  .button-content {
+    @apply relative z-10 flex items-center justify-center;
+  }
+
+  /* Flickering animation for edit mode */
+  .animate-flicker {
+    animation: flicker 1.5s ease-in-out infinite;
+  }
+  
+  @keyframes flicker {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    25% {
+      opacity: 0.7;
+      transform: scale(1.02);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(0.98);
+    }
+    75% {
+      opacity: 0.7;
+      transform: scale(1.02);
+    }
+  }
+}

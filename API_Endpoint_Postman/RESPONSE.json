@@ -1,0 +1,146 @@
+{
+  "status": "SUCCESS",
+  "message": "SUCCESS",
+  "title": "Sunlit Serenade on the French Riviera",
+  "destination": "French Riviera",
+  "destination_city_code": "NCE",
+  "duration_days": 7,
+  "start_date": "2025-08-22",
+  "end_date": "2025-08-28",
+  "travellers": 2,
+  "trip_type": ["Romantic getaway", "Luxury escape", "Scenic cruise"],
+  "description": "Indulge in a sun-drenched seven-day romance along the French Riviera, where glistening turquoise waters meet timeless elegance. From the vibrant markets of Nice to the opulent palaces of Monaco, every day offers a blend of indulgent dining, leisurely strolls along the Promenade des Anglais, and private yacht excursions. The itinerary weaves in the chic film festival streets of Cannes, the artful charm of Antibes, and the iconic beaches of Saint‑Tropez. Luxury stays, gourmet meals, and curated experiences ensure a seamless, unforgettable escape for couples seeking both adventure and relaxation.",
+  "highlights": [
+    "Sunset dinner on Promenade des Anglais",
+    "Private yacht cruise along Mediterranean coast",
+    "Explore Monaco's lavish casinos and royal palace",
+    "Stroll through Cannes' chic film streets",
+    "Relax on Saint‑Tropez's exclusive beach clubs"
+  ],
+  "itinerary": [
+    {
+      "location": "Nice",
+      "description": "A vibrant city blending art, culture, and azure seafront.",
+      "latitude": "43.7102",
+      "longitude": "7.2619",
+      "days": [
+        {
+          "day": 1,
+          "date": "2025-08-22",
+          "title": "Arrival & Sunset on the Promenade",
+          "description": "Arrive in Nice and check into a boutique hotel overlooking the sea. After settling in, stroll along the Promenade des Anglais to watch the sun set over the Mediterranean, ending the day with a glass of rosé in a seaside café."
+        },
+        {
+          "day": 2,
+          "date": "2025-08-23",
+          "title": "Old Town & Gourmet Dining",
+          "description": "Explore the narrow lanes of Vieux Nice, sampling local specialties such as socca and salade niçoise. In the afternoon, visit the Marc Chagall Museum before enjoying a candlelit dinner at a Michelin-starred restaurant, savoring regional wines."
+        }
+      ]
+    },
+    {
+      "location": "Monaco",
+      "description": "Luxurious principality known for its casinos and royal heritage.",
+      "latitude": "43.7384",
+      "longitude": "7.4246",
+      "days": [
+        {
+          "day": 3,
+          "date": "2025-08-24",
+          "title": "Casino Royale & Prince's Palace",
+          "description": "Start the day at the iconic Casino de Monte-Carlo, then tour the Prince's Palace with its impressive state rooms. Enjoy lunch at a seaside bistro and spend the afternoon at the Oceanographic Museum before a sunset cocktail at the Hotel de Paris."
+        }
+      ]
+    },
+    {
+      "location": "Cannes",
+      "description": "Famous film festival city with glamorous beaches.",
+      "latitude": "43.5529",
+      "longitude": "7.0176",
+      "days": [
+        {
+          "day": 4,
+          "date": "2025-08-25",
+          "title": "Film Boulevard & Luxury Shopping",
+          "description": "Walk along La Croisette, admiring the architecture and luxury boutiques. Stop for a brunch at a chic café, then take a private boat tour of the Lérins Islands, ending the day with a sunset cruise."
+        },
+        {
+          "day": 5,
+          "date": "2025-08-26",
+          "title": "Art & Beach Time",
+          "description": "Visit the Musée d'Art de la Castre to view contemporary art. Later, relax on the sandy beaches of Croisette, followed by an intimate dinner at a Michelin-starred restaurant overlooking the water."
+        }
+      ]
+    },
+    {
+      "location": "Antibes",
+      "description": "Artistic coastal town with Picasso Museum and sandy shores.",
+      "latitude": "43.5648",
+      "longitude": "7.0996",
+      "days": [
+        {
+          "day": 6,
+          "date": "2025-08-27",
+          "title": "Picasso & Port Vauban",
+          "description": "Tour the Picasso Museum in the old harbor, then walk around Port Vauban’s marina. Enjoy fresh seafood lunch at a harbor-side restaurant and spend the afternoon at Plage de la Gravette, ending the day with a leisurely walk along the promenade."
+        }
+      ]
+    },
+    {
+      "location": "Saint‑Tropez",
+      "description": "Iconic beach resort known for luxury and nightlife.",
+      "latitude": "43.2921",
+      "longitude": "6.9754",
+      "days": [
+        {
+          "day": 7,
+          "date": "2025-08-28",
+          "title": "Luxury Beach & Farewell Dinner",
+          "description": "Start the day with a private yacht to the secluded beaches of Pampelonne. Enjoy a gourmet picnic on the sand, then return to the town for a farewell dinner at a high-end restaurant, reflecting on the unforgettable Riviera experience."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "raw": "https://images.unsplash.com/photo-1578240749366-a1d3b6c39cb4?ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwxfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0",
+      "full": "https://images.unsplash.com/photo-1578240749366-a1d3b6c39cb4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwxfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=85",
+      "regular": "https://images.unsplash.com/photo-1578240749366-a1d3b6c39cb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwxfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "small": "https://images.unsplash.com/photo-1578240749366-a1d3b6c39cb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwxfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=400",
+      "thumb": "https://images.unsplash.com/photo-1578240749366-a1d3b6c39cb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwxfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=200",
+      "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1578240749366-a1d3b6c39cb4"
+    },
+    {
+      "raw": "https://images.unsplash.com/photo-1587579785043-eccb9f70391d?ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwyfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0",
+      "full": "https://images.unsplash.com/photo-1587579785043-eccb9f70391d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwyfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=85",
+      "regular": "https://images.unsplash.com/photo-1587579785043-eccb9f70391d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwyfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "small": "https://images.unsplash.com/photo-1587579785043-eccb9f70391d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwyfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=400",
+      "thumb": "https://images.unsplash.com/photo-1587579785043-eccb9f70391d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwyfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=200",
+      "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1587579785043-eccb9f70391d"
+    },
+    {
+      "raw": "https://images.unsplash.com/photo-1604948559069-3287d5c5a6e5?ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwzfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0",
+      "full": "https://images.unsplash.com/photo-1604948559069-3287d5c5a6e5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwzfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=85",
+      "regular": "https://images.unsplash.com/photo-1604948559069-3287d5c5a6e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwzfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "small": "https://images.unsplash.com/photo-1604948559069-3287d5c5a6e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwzfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=400",
+      "thumb": "https://images.unsplash.com/photo-1604948559069-3287d5c5a6e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHwzfHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=200",
+      "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1604948559069-3287d5c5a6e5"
+    },
+    {
+      "raw": "https://images.unsplash.com/photo-1571326023256-d558860f76af?ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHw0fHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0",
+      "full": "https://images.unsplash.com/photo-1571326023256-d558860f76af?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHw0fHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=85",
+      "regular": "https://images.unsplash.com/photo-1571326023256-d558860f76af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHw0fHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "small": "https://images.unsplash.com/photo-1571326023256-d558860f76af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHw0fHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=400",
+      "thumb": "https://images.unsplash.com/photo-1571326023256-d558860f76af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHw0fHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=200",
+      "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1571326023256-d558860f76af"
+    },
+    {
+      "raw": "https://images.unsplash.com/photo-1703152792682-a1fe5f3dedb4?ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHw1fHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0",
+      "full": "https://images.unsplash.com/photo-1703152792682-a1fe5f3dedb4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHw1fHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=85",
+      "regular": "https://images.unsplash.com/photo-1703152792682-a1fe5f3dedb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHw1fHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "small": "https://images.unsplash.com/photo-1703152792682-a1fe5f3dedb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHw1fHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=400",
+      "thumb": "https://images.unsplash.com/photo-1703152792682-a1fe5f3dedb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTE5NTd8MHwxfHNlYXJjaHw1fHxGcmVuY2glMjBSaXZpZXJhfGVufDB8fHx8MTc1NTg4MzU2Nnww&ixlib=rb-4.1.0&q=80&w=200",
+      "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1703152792682-a1fe5f3dedb4"
+    }
+  ]
+}

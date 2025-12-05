@@ -1,0 +1,5 @@
+curl --location 'https://journi-api-concept.onrender.com/generate/itinerary' \
+--header 'Content-Type: application/json' \
+--data '{
+    "promptInput":"7-Day Luxury Couple Escape French Riviera"
+}'

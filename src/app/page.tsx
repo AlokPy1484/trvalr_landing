@@ -151,7 +151,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-primary/10 via-background to-accent/10 overflow-x-hidden w-full">
+    <div className="flex flex-col min-h-screen  overflow-x-hidden w-full">
       <Header
         isScrolled={isScrolled}
         searchQuery={searchQuery}
@@ -164,7 +164,7 @@ export default function HomePage() {
         {showStickyNav && <StickyExplorerNav />}
       </AnimatePresence> */}
 
-      <main className="flex-grow w-full overflow-x-hidden">
+      <main className="flex-grow w-full h-full overflow-x-hidden">
         <HeroSection
           tripQuery={tripQuery}
           onTripQueryChange={setTripQuery}
@@ -172,9 +172,9 @@ export default function HomePage() {
           sendBtnLoader={sendBtnLoader}
         />
 
-        <div ref={explorerSectionRef} className="w-full overflow-x-hidden">
+        {/* <div ref={explorerSectionRef} className="w-full overflow-x-hidden">
           <TravelExplorerSection />
-        </div>
+        </div> */}
 
         <div className="w-full overflow-x-hidden">
           <PromotionsSection
